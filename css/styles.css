@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    font-family:'Roboto Condensed', sans-serif;
+}
+nav{
+ background-image: url("https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"),
+ linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+    height: 60vh;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+}
+.labels{
+    padding: 20px 50px;
+    float: left;
+}
+a{
+    text-decoration: none;
+    color: rgb(241, 209, 149);
+    font-weight: bold;
+    font-size: 18px;
+}
+a:hover{
+    color: rgba(158, 148, 97,0.8);
+    text-decoration:none;
+   
+}

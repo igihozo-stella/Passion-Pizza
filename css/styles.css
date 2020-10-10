@@ -2,7 +2,7 @@
     margin: 0;
     font-family:'Roboto Condensed', sans-serif;
 }
-nav{
+#home{
  background-image: url("https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"),
  linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     background-blend-mode: overlay;
@@ -13,6 +13,15 @@ nav{
     background-size: cover;
     text-align:center;
 }
+#home h1,#home p{
+        text-align: center;
+        padding: 20px 30px;
+        color:rgb(202, 137, 15);
+}
+#home p{
+    font-size: 20px;
+}
+
 .labels{
     padding: 20px 50px;
     float: left;

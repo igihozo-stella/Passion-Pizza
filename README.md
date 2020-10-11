@@ -18,3 +18,9 @@ Passion Pizza is site built for ordering size,crust and preferred pizza toppings
 - Css
 - Javascript
 - Bootstrap
+## BDD
+- choose size of the pizza and according price.
+- choose more than one of toppings on the pizza.
+- choose the cost of crust.
+- display alert box of total amount for the pizza ordered.
+- display box for inputting location.

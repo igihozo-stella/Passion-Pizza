@@ -13,3 +13,8 @@ Passion Pizza is site built for ordering size,crust and preferred pizza toppings
 - Open terminal command line then navigate to the root folder of the application. cd Passion-Pizza
 - Open your text editor using your terminal command line.
 - Open index.html in your browser.
+## Technologies Used
+- Html5
+- Css
+- Javascript
+- Bootstrap

@@ -40,21 +40,21 @@
                      <div class="form-group">
                          <label for="size">Choose your Pizza Size</label>
                          <select class="form-control" id="size">
-                            <option>Small Pizza   4000rwf</option>
-                            <option>Medium Pizza  7000rwf</option>
-                            <option>Large Pizza   12000rwf</option>
+                            <option type="text" value="4000">Small Pizza   4000rwf</option>
+                            <option type="text" value="7000">Medium Pizza  7000rwf</option>
+                            <option type="text" value="12000">Large Pizza   12000rwf</option>
                          </select>
                      </div>
                   </div>
                   <div class="col-md-4">
                      <div class="form-group">
-                         <label for="topping">Choose Topping on your Pizza</label>
-                         <select class="custom-select">
-                            <option selected>Toppings:</option>
-                            <option value="1">Peperoni: Mozarella cheese,Tomato Sauce,chili peppers, sausages</option>
-                            <option value="2">Margherita: Mozarella cheese, tomato Sauce, green peppers,Basil leaves,Tomato slices</option>
-                             <option value="3">Four Season: Mozarella ,sausages,mushrooms,tomato sauce</option>
-                         </select>
+                         <label for="topping">Choose Topping on your Pizza:</label><br>
+                         <input value="4000" type="checkbox" id="toppingone">Mushrooms<br>
+                         <input value="4000" type="checkbox" id="toppingone">Sausage<br>
+                         <input value="4000" type="checkbox" id="toppingone">basil leaves<br>
+                         <input value="4000" type="checkbox" id="toppingone">Green peppers<br>
+                         <input value="4000" type="checkbox" id="topping">Mozarella Cheese<br>
+                         <input value="4000" type="checkbox" id="topping">Tomato Sauce<br>
                      </div>
                   </div>
                   <div class="col-md-4">
@@ -68,12 +68,14 @@
                       </div>
                   </div>
               </div>
-              <input class="form-control form-group" type="number" placeholder="Total number of Pizza" id="numberofpizza" min="0">
+              <input class="form-control form-group" type="number" placeholder="Total number of Pizza" id="numberofpizza" min="1">
               
               <button class="btn btn-primary" type="submit">Confirm</button>
             </div>
         </div>
-        
+        <footer id="footer">
+            <p> &copy;| Passion Pizza | Terms of Use</p>
+        </footer>
     </div>
 </body>
 </html>

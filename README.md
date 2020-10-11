@@ -27,3 +27,6 @@ Passion Pizza is site built for ordering size,crust and preferred pizza toppings
 ## Support and Contact Details
 you can contact me on: 
 E-Mail: igihozo96@gmail.com
+## License
+MIT License
+Copyright 2020 | Stella

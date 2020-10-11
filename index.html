@@ -48,31 +48,44 @@
                   </div>
                   <div class="col-md-4">
                      <div class="form-group">
-                         <label for="topping">Choose Topping on your Pizza:</label><br>
-                         <input value="4000" type="checkbox" id="toppingone">Mushrooms<br>
-                         <input value="4000" type="checkbox" id="toppingone">Sausage<br>
-                         <input value="4000" type="checkbox" id="toppingone">basil leaves<br>
-                         <input value="4000" type="checkbox" id="toppingone">Green peppers<br>
-                         <input value="4000" type="checkbox" id="topping">Mozarella Cheese<br>
-                         <input value="4000" type="checkbox" id="topping">Tomato Sauce<br>
+                        <label for="topping">Choose Topping on your Pizza</label>
+                        <div class="checkbox" type="number">
+                            <label><input type="checkbox" value="0" id="toppingone">Mozarella cheese</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value="0" id="toppingtwo">Sausages</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value="0" id="toppingthree">Onions</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value="0" id="toppingfour">Green peppers</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value="0" id="toppingfive">Tomato Sauce</label>
+                          </div>
+                          <div class="checkbox">
+                            <label><input type="checkbox" value="0" id="toppingsix">Mushrooms</label>
+                          </div>
                      </div>
                   </div>
                   <div class="col-md-4">
                       <div class="form-group">
                         <label for="size">Choose your pizza Crust</label>
                         <select class="form-control" id="crust">
-                           <option value="2000">Glutten-free 2000rwf</option>
-                           <option value="5000">Crispy Crust 5000rwf</option>
-                           <option value="4000">Stuffed Crust 4000rwf</option>
+                           <option value="1000">Glutten-free 1000rwf</option>
+                           <option value="2000">Crispy Crust 2000rwf</option>
+                           <option value="2000">Stuffed Crust 2000rwf</option>
                         </select>
                       </div>
                   </div>
               </div>
               <input class="form-control form-group" type="number" placeholder="Total number of Pizza" id="numberofpizza" min="1">
               
-              <button class="btn btn-primary" type="submit">Confirm</button>
+              <button class="btn btn-primary" type="submit" onclick="myFunction();">Confirm</button>
             </div>
         </div>
+        <div id="delivery"><button class="btn btn-secondary" type="submit" onclick="deliver();">Delivery</button></div>
         <footer id="footer">
             <p> &copy;| Passion Pizza | Terms of Use</p>
         </footer>

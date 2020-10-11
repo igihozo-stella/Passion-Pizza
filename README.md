@@ -24,3 +24,6 @@ Passion Pizza is site built for ordering size,crust and preferred pizza toppings
 - choose the cost of crust.
 - display alert box of total amount for the pizza ordered.
 - display box for inputting location.
+## Support and Contact Details
+you can contact me on: 
+E-Mail: igihozo96@gmail.com
